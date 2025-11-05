@@ -11,7 +11,7 @@ provider "aws" {
   region = var.aws_region
 }
 
-resource "aws_s3_bucket" "this" {
+resource "aws_s3_bucket" "first-s3" {
   bucket = var.bucket_name
   tags = {
     Name        = var.bucket_name
@@ -20,7 +20,7 @@ resource "aws_s3_bucket" "this" {
 }
 
 resource "aws_s3_bucket_versioning" "versioning" {
-  bucket = aws_s3_bucket.this.id
+  bucket = aws_s3_bucket.first-s3.id
   versioning_configuration {
     status = var.enable_versioning ? "Enabled" : "Suspended"
   }
