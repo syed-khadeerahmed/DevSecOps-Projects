@@ -20,8 +20,17 @@ If you're learning too → **you can learn with me.**
 ---
 
 ## 🧱 What This Repository Contains
+---
 
-### 1️⃣ **Container Building & Security**
+### 1️⃣ **Infrastructure as Code (IaC)**
+- **Terraform modules + environment based architecture**
+- Code review workflows
+- `checkov` / `tfsec` policy validation
+- Backends → S3 + DynamoDB for state locks
+
+---
+
+### 2️⃣ **Container Building & Security**
 Focus: Build and secure container images like a professional.
 
 **Includes:**
@@ -37,7 +46,7 @@ Produce **secure, production-ready containers**, not just working images.
 
 ---
 
-### 2️⃣ **Kubernetes Building & Security**
+### 3️⃣ **Kubernetes Building & Security**
 Focus: Deploy workloads safely — not just run containers.
 
 **Includes:**
@@ -53,7 +62,7 @@ Run applications in Kubernetes **securely in real world conditions**.
 
 ---
 
-### 3️⃣ **CI/CD Pipelines & Security**
+### 5️⃣ **CI/CD Pipelines & Security**
 - GitHub Actions / Jenkins pipelines
 - **OIDC → AWS authentication** (no secret keys)
 - Security scanners in pipeline:
@@ -72,11 +81,7 @@ Run applications in Kubernetes **securely in real world conditions**.
 
 ---
 
-### 5️⃣ **Infrastructure as Code (IaC)**
-- **Terraform modules + environment based architecture**
-- Code review workflows
-- `checkov` / `tfsec` policy validation
-- Backends → S3 + DynamoDB for state locks
+
 
 ---
 
