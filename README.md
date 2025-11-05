@@ -80,5 +80,4 @@ Run applications in Kubernetes **securely in real world conditions**.
 
 ---
 
-## 🗂 Repository Structure
 
